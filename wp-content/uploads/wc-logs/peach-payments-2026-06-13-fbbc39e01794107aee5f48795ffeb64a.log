@@ -1,0 +1,39 @@
+2026-06-13T05:01:58+00:00 ERROR Peach API Error: Token Response [97]
+URL: https://sandbox-dashboard.peachpayments.com/api/oauth/token
+Request: Array
+(
+    [clientId] => 
+    [clientSecret] => 
+    [merchantId] => 
+)
+
+Response: Array
+(
+    [message] => "clientId" is not allowed to be empty
+)
+2026-06-13T05:05:26+00:00 ERROR Peach API Error: Token Response [98]
+URL: https://sandbox-dashboard.peachpayments.com/api/oauth/token
+Request: Array
+(
+    [clientId] => 
+    [clientSecret] => 
+    [merchantId] => 
+)
+
+Response: Array
+(
+    [message] => "clientId" is not allowed to be empty
+)
+2026-06-13T07:35:04+00:00 ERROR Peach API Error: Token Response [109]
+URL: https://sandbox-dashboard.peachpayments.com/api/oauth/token
+Request: Array
+(
+    [clientId] => 
+    [clientSecret] => 
+    [merchantId] => 
+)
+
+Response: Array
+(
+    [message] => "clientId" is not allowed to be empty
+)

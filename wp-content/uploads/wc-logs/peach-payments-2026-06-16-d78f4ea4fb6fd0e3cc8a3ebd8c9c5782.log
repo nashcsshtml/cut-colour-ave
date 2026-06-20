@@ -1,0 +1,13 @@
+2026-06-16T17:20:01+00:00 ERROR Peach API Error: Token Response [137]
+URL: https://sandbox-dashboard.peachpayments.com/api/oauth/token
+Request: Array
+(
+    [clientId] => 
+    [clientSecret] => 
+    [merchantId] => 
+)
+
+Response: Array
+(
+    [message] => "clientId" is not allowed to be empty
+)

@@ -1,0 +1,13 @@
+2026-06-12T17:30:53+00:00 ERROR Peach API Error: Token Response [80]
+URL: https://sandbox-dashboard.peachpayments.com/api/oauth/token
+Request: Array
+(
+    [clientId] => 
+    [clientSecret] => 
+    [merchantId] => 
+)
+
+Response: Array
+(
+    [message] => "clientId" is not allowed to be empty
+)
