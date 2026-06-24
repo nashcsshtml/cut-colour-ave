@@ -1,0 +1,1 @@
+!function(){"use strict";jQuery(e=>{e(".glsr_type_range-wrapper").each((a,n)=>{e(n).css({alignItems:"center",display:"flex",gap:"1em",maxWidth:"25rem"});let p=e(n).find("input.wpb_vc_param_value").css({flex:"1"}),t=e(n).find("input.wpb_vc_param_infobox").css({width:"5em",padding:"8px 6px",textAlign:"center"});p.on("input",e=>t.val(p.val())),t.on("input",e=>p.val(t.val()))})})}();

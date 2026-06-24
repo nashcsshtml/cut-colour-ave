@@ -1,0 +1,44 @@
+#amelia-js-select-event,
+#amelia-js-select-tag,
+#amelia-js-select-location {
+    height: 100px;
+    overflow-y: scroll;
+}
+
+.amelia-gutenberg-multi-select .components-input-control-suffix-wrapper {
+    display: none;
+}
+
+.amelia-gutenberg-multi-select-note {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-size: 10px;
+    line-height: 12px;
+    border: 1px solid #D4DEFC;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.amelia-gutenberg-multi-select-note:before {
+    width: 16px;
+    height: 12px;
+    content: url('../../../img/info-filled.svg');
+}
+
+.wp-block-buttons .wp-block-button.wp-block-button__width-25 {
+    width: calc(25% - var(--wp--style--block-gap, .5em)*.75)
+}
+
+.wp-block-buttons .wp-block-button.wp-block-button__width-50 {
+    width: calc(50% - var(--wp--style--block-gap, .5em)*.5)
+}
+
+.wp-block-buttons .wp-block-button.wp-block-button__width-75 {
+    width: calc(75% - var(--wp--style--block-gap, .5em)*.25)
+}
+
+.wp-block-buttons .wp-block-button.wp-block-button__width-100 {
+    flex-basis: 100%;
+    width: 100%
+}

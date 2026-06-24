@@ -1,0 +1,141 @@
+/*
+Theme Name: Hello Elementor Child
+Template: hello-elementor
+Version: 1.0
+*/
+.ehf-header #masthead {
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:9999;
+}
+#masthead{
+    transition: transform .3s ease;
+}
+#masthead.sticky-header{
+    background: rgba(0,0,0,0.5);
+    transform: translateY(-100%);
+    box-shadow:0 2px 12px rgba(255,255,255,.08);
+}
+#masthead.sticky-header.show-header{
+    transform:translateY(0);
+}
+#masthead .custom-logo {
+    max-width: 190px;
+    height: auto;
+}
+
+.timeList .elementor-icon-list-text {
+    width: 100%;
+    position: relative;
+}
+.timeList .elementor-icon-list-text:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: white;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.timeList .elementor-icon-list-text span, .timeList em {
+    background: #2b3152;
+    position: relative;
+    padding-right: 5px;
+}
+.timeList em {
+    font-style: normal;
+    float: right;
+    padding: 0 0 0 5px;
+}
+
+
+/** Amelia settings **/
+.amelia-v2-booking #amelia-container .am-fs__main-footer {
+    padding: 8px 15px !important;
+}
+.amelia-v2-booking.am-forms-dialog .el-dialog__headerbtn, .amelia-v2-booking.amelia-v2-booking-dialog .el-dialog__headerbtn {
+    font-size: 25px;
+}
+.amelia-v2-booking.am-forms-dialog .el-dialog__headerbtn:hover {
+    background: none !important;
+}
+.amelia-v2-booking #amelia-container .am-fs__main-footer .am-button--primary, .amelia-v2-booking #amelia-container .am-fs__main-footer .am-button--secondary, .amelia-v2-booking #amelia-container .am-button.am-button--default, .amelia-v2-booking #amelia-container .am-button.am-button--small {
+    border-radius: 50px !important;
+    padding: 12px 25px !important;
+    height: unset !important;
+}
+#amelia-container .am-cat__form {
+    height: auto !important;
+}
+#amelia-container .am-cat__content {
+    max-height: none !important;
+    overflow: visible !important;
+}
+.amelia-v2-booking #amelia-container .am-fcil__item-info {
+    padding: 15px 0;
+}
+.amelia-v2-booking #amelia-container .am-cat__header {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+/** Woocommerce page **/
+.woocommerce-account main#content {
+    max-width: unset;
+}
+.woocommerce-account main#content .page-header {
+    min-height: 40vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background: url("img/bgd-account.jpg") no-repeat center center;
+    background-size: cover;
+}
+.woocommerce-account main#content .page-header h1 {
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.woocommerce-account main#content .page-content {
+    margin: 30px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+.woocommerce-account main#content .page-content #amelia-container {
+    margin: 0;
+}
+.woocommerce-account .page-content .woocommerce:has(.woocommerce-form-login), .woocommerce-account .page-content .woocommerce:has(.lost_reset_password) {
+    max-width: 600px;
+    margin: 0 auto;
+}
+body a {
+    color: #2b3152;
+}
+body a:hover {
+    color: #6D3B7F;
+}
+.woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register, .woocommerce form.lost_reset_password {
+    border: 1px solid #2b3152;
+    border-radius: 0;
+    padding: 20px;
+    margin: 2em 0;
+    text-align: left;
+}
+.woocommerce .lost_reset_password .form-row {
+    width: 100%;
+}
+.woocommerce-form-login__rememberme {
+    margin-top: 12px;
+    float: right;
+}
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button, :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce #respond input#submit, :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce a.button, :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce button.button, :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce input.button {
+    background: #2b3152;
+    border-radius: 25px 25px 25px 25px;
+    padding: 18px 30px 18px 30px;
+    color: #FFFFFF;
+}
+.woocommerce-MyAccount-navigation .woocommerce-MyAccount-navigation-link--edit-account {
+    display: none;
+}

@@ -1,0 +1,1 @@
+!function(){"use strict";document.addEventListener("DOMContentLoaded",()=>{UxBuilder.on("shortcode-attached",t=>{if(t.tag.startsWith("site_review")){let e=t.$scope.$ctrl.targets.$iframe().get(0),n=e.contentWindow||e;n.GLSR_init&&n.GLSR_init(),t.$element.find(".glsr :input,.glsr a").attr("tabindex",-1).css("pointerEvents","none")}})})}();
